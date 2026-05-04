@@ -44,7 +44,7 @@ table {
   width: 75%;
 }
 
-table .h200 {
+.h200 {
   height: 200px;
 }
 
@@ -54,10 +54,15 @@ table .h200 {
   width: 90%;
 }
 
-table .w60 {
+.w60 {
   width: 60%;
 }
-table .w28 {
+
+.w40 {
+  width: 40%;
+}
+
+.w28 {
   width: 28%;
 }
 
