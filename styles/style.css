@@ -1,15 +1,18 @@
 @import url("reset.css");
 
 .container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 td {
   width: 33.33%;
-  height: 50px;
   text-align: center;
   border: 1px solid black;
   padding: 10px;
+}
+
+tr {
+  height: 50px;
 }
 
 table {
@@ -73,6 +76,18 @@ table .w28 {
 .mondriana td {
   padding: 0;
   border: 4px solid black;
+  color: transparent;
+}
+
+.mondriana tr {
+  height: 50px;
+}
+
+.mondriana tr:nth-child(6) {
+  height: 30px;
+}
+.mondriana tr:nth-child(7) {
+  height: 20px;
 }
 
 /* COLOR CLASSES */
@@ -90,7 +105,7 @@ table .w28 {
 
 .black {
   background-color: black;
-  color: white;
+  /* color: white; */
 }
 
 /* ROW HEIGHT CLASSES */
